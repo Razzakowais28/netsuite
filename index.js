@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // ✅ Hardcoded NetSuite URL
-const TARGET_URL = 'https://8869626.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2239&deploy=1';
+const TARGET_URL = 'https://8869626.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2239&deploy=1&compid=8869626&ns-at=AAEJ7tMQWqfayGlovA_0cQpw0pkkSJj8L7hOYASVjnO86mffWDA';
 
 app.post('/clean', async (req, res) => {
   try {
